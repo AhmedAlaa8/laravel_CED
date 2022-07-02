@@ -9,7 +9,10 @@
                     <a class="nav-link" href="{{ route('user.create') }}">Create</a>
                 </li>
                 <li class="nav-item">
-                    {{-- <a class="nav-link" href="{{ route('user.edit') }}">Edit</a> --}}
+                    <a class="nav-link" href="{{ route('book.index') }}">book_index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('book.create') }}">book_create</a>
                 </li>
 
 
